@@ -1,0 +1,62 @@
+
+langchain -> Version 0.4x, V 1.0 -> GAI application 
+    concepts are abstracted 
+    langgraph -> agentic ai 
+    langsmith
+
+1. Experience -> unsupervised
+2. Academics [1-10, 11, 12, ] fourier series -> supervised
+    1. civil
+    2. electrical
+    3. elctronics 
+
+
+1. speech recognization: 
+
+voice -> Analog signal -> Sampeling theorm [time and density] -> against a state diagrma 
+    phonims -> ah, ba
+   Deep learning -> neural network -> 
+    -> [he] -> [ll] -> [o] -> hello
+    -> [wa] -> [ha] -> [te]
+
+
+
+trained -> transformeres -> llm 
+    1. infrastructure  -> 1000 gpu's to train the model 
+    2. 8 month's
+    3. complete internetdata 
+
+    100 million$, 75 million 
+
+llm -> algorithm [transformeres] + data [dog barking, glass breaking] [slm] cctv [iot] -> sms 
+    1. CPU + GPU
+
+
+Scaling -> managing the load in a application 
+    application  -> [8cpu's, 32gb ram, 100 mbps n/w, 1 tb hdd] -> 100 concurrent 
+        Scaling -> 
+            1. vertical scaling -> [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+            2. horizontal scaling -> [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+                                      [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+                                       [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+                                        [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+                                         [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+                                          [16cpu's, 64gb ram, 1000 mbps n/w, 1 tb ssd] -> 200 concurrent 
+        
+        Distributed Network: 
+            lambda's -> functional programing [independently] 
+                you pass the details required as parameter [context] -> process the method -> return 
+
+
+
+1. AI ML DL GAI LLM are related
+2. Feature engg, Learnings 
+3. Transformer -> Foundation Models [LLM] 
+
+    AWS Service Bedrock
+
+    Chat application    ->  Amazon Nova [LLM]
+    chat app python     -> [access token and model id [amazon.nova-pro-v1:0]]
+    local application [ChatGPT] -> GPT-5.1
+    langchain -> 
+   

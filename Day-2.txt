@@ -1,0 +1,6 @@
+
+1. AI ML DL GAI LLM are related
+2. Feature engg, Learnings 
+3. Transformer -> Foundation Models [LLM] 
+4. Amazon Bedrock -> models 
+5. VM VS Code and required [Jupyter, Python]
