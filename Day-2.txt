@@ -4,3 +4,8 @@
 3. Transformer -> Foundation Models [LLM] 
 4. Amazon Bedrock -> models 
 5. VM VS Code and required [Jupyter, Python]
+
+langchain: 
+    1. schema -> representing data exechange between application[sm, hm, ai] and -> " " -> llm 
+    2. models -> env -> chatmodel -> [modelid and temperature] -> invoke()
+    3. 
