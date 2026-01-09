@@ -9,7 +9,9 @@ Langchain: GAI Applications
         3. Router, Retrevial ... chain 
     5. Memory: Chat Bot
         1. short term Memory
-        2. LT Memory
+        2. LT Memory 
+    6. RAG: 
+    
 
 
 Application  ->  gpt 5.2
