@@ -1,0 +1,22 @@
+Langchain: GAI Applications
+    1. schema
+    2. models
+    3. prompt templates
+    4. chains : wrapper for other components in the langchain 
+        One chain [schema, LLM, Prompts, Memory, RAG]
+        1. simple sequential chain 
+        2. sequential chain 
+        3. Router, Retrevial ... chain 
+    5. Memory: Chat Bot
+        1. short term Memory
+        2. LT Memory
+
+
+Application  ->  gpt 5.2
+
+businees -> KPI 
+    no user should go beyond 10 questions -> redirect him to human 
+
+Limitations: 
+    1. tokens []
+    2. subscription []

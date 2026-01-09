@@ -8,4 +8,25 @@
 langchain: 
     1. schema -> representing data exechange between application[sm, hm, ai] and -> " " -> llm 
     2. models -> env -> chatmodel -> [modelid and temperature] -> invoke()
-    3. 
+    3. Prompts: 
+    4. 
+
+
+
+LLM Model: 
+    1. Hospital data set 
+    2. Financial BFSI data set
+    3. Geolation Dataset 
+
+    Prompt: 
+            System Message: [you are helpfull BFSI chat bot]
+            context: [proprietry] -> SBI bank with list of branches 
+            I/P: where is the bank?
+            o/p indicators: give the branch details in the form of JSON
+            
+LLM's -> Stateless service [SLA]
+      -> 32k tokens max limit [input and output token ]
+
+
+Manager -> English -> leave email -> response 
+Employee -> french -> ask for leave -> email -> french response from manage 
