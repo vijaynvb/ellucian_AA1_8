@@ -11,6 +11,13 @@ Langchain: GAI Applications
         1. short term Memory
         2. LT Memory 
     6. RAG: 
+        1. Document loading 
+        2. chunking
+        3. embbed the chunks 
+        4. store in vdb - 
+            RDBM's SQL 
+            1. Consaine Similarity
+            2. MMR 
     
 
 
@@ -22,3 +29,16 @@ businees -> KPI
 Limitations: 
     1. tokens []
     2. subscription []
+
+A=B=C 
+pip install langchain.documentloader = transormaer = bs4
+A=C
+
+
+1. LLM -> token limit [32k]
+          RAG [12k] -> hallucination -> 
+            -> db size of the column 
+            -> limit 500
+            pdf's - 5 mb -> if its only text -> 100 pages -> if ithas images 2 pages of content 
+          how much data user can give-> [10000]
+          cost []
