@@ -8,7 +8,43 @@ from dotenv import load_dotenv
 from langchain_aws import ChatBedrock, BedrockEmbeddings   
 
 load_dotenv()
+# Load data from postgress database for chunking and vectorstore creation
+# def load_data(table=None, text_column=None, where_clause=None, limit=None):
 
+#     PG_HOST = os.getenv("PG_HOST", "localhost")
+#     PG_PORT = os.getenv("PG_PORT", "5432")
+#     PG_DATABASE = os.getenv("PG_DATABASE")
+#     PG_USER = os.getenv("PG_USER")
+#     PG_PASSWORD = os.getenv("PG_PASSWORD")
+
+#     table = table or os.getenv("PG_TABLE")
+#     text_column = text_column or os.getenv("PG_TEXT_COLUMN", "content")
+#     if not (PG_DATABASE and PG_USER and PG_PASSWORD and table):
+#         raise ValueError("Postgres connection info and table must be provided via env or args")
+
+#     conn = None
+#     try:
+#         conn = psycopg2.connect(
+#             host=PG_HOST, port=PG_PORT, dbname=PG_DATABASE, user=PG_USER, password=PG_PASSWORD
+#         )
+#         cur = conn.cursor()
+#         query = sql.SQL("SELECT {col} FROM {tbl}").format(
+#             col=sql.Identifier(text_column),
+#             tbl=sql.Identifier(table)
+#         )
+#         if where_clause:
+#             query = sql.SQL("{} WHERE {}").format(query, sql.SQL(where_clause))
+#         if limit:
+#             query = sql.SQL("{} LIMIT {}").format(query, sql.Literal(int(limit)))
+
+#         cur.execute(query)
+#         rows = cur.fetchall()
+#         # join rows into a single text blob separated by double newlines
+#         texts = [r[0] for r in rows if r and r[0]]
+#         return "\n\n".join(texts)
+#     finally:
+#         if conn:
+#             conn.close()
 # Load pdf 
 def load_pdf(file_paths):
     text = ""

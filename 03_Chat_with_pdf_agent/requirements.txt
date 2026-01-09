@@ -1,0 +1,4 @@
+# dependencies for chat with pdf
+python-dotenv
+streamlit 
+boto3
