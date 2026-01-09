@@ -35,6 +35,15 @@ def main():
             st.session_state.messages.append({"role": "user", "content": user_input})
             st.session_state.messages.append({"role": "assistant", "content": response})
 
+        # user_input1 = st.text_input("me: ", key="input1")
+        # if user_input1:
+        #     # Get response from chat chain
+        #     chat_chain = st.session_state.chat_chain
+        #     response = chat_chain.run(user_input1)
+        #     # Store messages in session state
+        #     st.session_state.messages.append({"role": "user", "content": user_input1})
+        #     st.session_state.messages.append({"role": "assistant", "content": response})
+
         # Display chat messages
         for msg in st.session_state.messages:
             if msg["role"] == "user":
